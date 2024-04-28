@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OutilsDevConnect</title>
+    <title>DevToolsConnect</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
 </head>
@@ -16,9 +16,9 @@
     <nav class="bg-white border-gray-100 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">
-                <!-- <img src="{% static 'logo.png' %}"class="h-50 mr-3"  alt="Flowbite Logo" />-->
+                <img src="logo.png'" class="h-50 mr-3" alt="Flowbite Logo" />
                 <span
-                    class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">OutilsDevConnect</span>
+                    class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DevTootsConnect</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
                 class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -77,23 +77,28 @@
     <hr class="my-6 border-gray-500 sm:mx-auto light:border-gray-700 lg:my-1" />
     <!-- Fin navigation -->
 
-    <div class="bg-white  p-6 dark:bg-gray-900">
-
+    <div class="bg-white p-6 dark:bg-gray-900">
         <h2 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white text-center">A la recherche d'outils, de sites
-            et de ressources?
-        </h2>
-        <p class="mb-6 text-gray-900 dark:text-white text-center">
-            Explorez une collection diversifiée et constamment mise à jour d'outils essentiels pour tous les types
-            de
-            développement.<br>Vous pouvez contribuez. <a href="#" class="text-blue-500">
-                Ici</a>.
+            et de
+            ressources?</h2>
+        <p class="mb-5 text-gray-900 dark:text-white text-center">Explorez une collection diversifiée et constamment
+            mise à
+            jour d'outils essentiels<br> pour tous les types de développement.<br>Vous pouvez
+            contribuer <a target="_blank" href="https://github.com/sibylassana95/DevtoolsconnectContribution"
+                class="text-blue-500">ici</a>.
+            <br><span
+                class="inline-block bg-blue-600 dark:bg-orange-600 text-white dark:text-white rounded-full px-3 py-1 text-sm font-semibold mr-2 mt-4 transition-transform duration-400 transform hover:scale-105">+
+                105</span>
+
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6 mt-12">
             <div class="max-w-xs">
                 <label for="tags" class="block text-sm font-medium mb-1 text-gray-900 dark:text-white">Tags</label>
                 <select id="tags"
                     class="block w-full dark:bg-gray-800 border border-zinc-600 text-gray-900 dark:text-white rounded-md py-2 px-3">
                     <option>All</option>
+                    <option *ngFor="let tag of tags">tag</option>
                 </select>
             </div>
             <div class="flex space-x-2 max-w-xs">
@@ -102,118 +107,53 @@
                         class="block text-sm font-medium mb-1 text-gray-900 dark:text-white">Rechercher</label>
                     <input type="text" id="search"
                         class="block w-full dark:bg-gray-800 border border-zinc-600 text-gray-900 dark:text-white rounded-md py-2 px-3"
-                        placeholder="Enter keyword..." />
+                        placeholder="Rechercher..." />
                 </div>
             </div>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
+            <div *ngFor="let item of pagedData; let i = index"
+                class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md transition-transform duration-400 transform hover:scale-105">
                 <div class="flex items-center mb-4">
-                    <div class="bg-pink-600 text-white rounded-full p-2 mr-3">
-                        <span class="font-bold">G</span>
+                    <div [ngClass]="'rounded-full p-2 mr-3>
+                        <span class=" font-bold text-white">Lettre</span>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">GalsenAPi</h3>
+                    <a target="_blank" href="{{ item.Source }}">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mt-4">Nom</h3>
+                    </a>
                 </div>
-                <p class="mb-2 text-gray-900 dark:text-white">GalsenApi est une API qui vous permet de manipuler
-                    facilement des données sur le Sénégal
+                <p class="mb-2 text-gray-900 dark:text-white">Description</p>
+                <p class="text-sm mb-1 text-gray-900 dark:text-white">Source: <a class="text-blue-500" target="_blank"
+                        href="{{ item.Source }}">Visiter le site</a></p>
+                <p class="text-sm text-gray-900 dark:text-white">Tags:
+                    <ng-container>
+                        <span
+                            class="inline-block bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 rounded-full px-3 py-1 text-sm font-semibold mr-2"
+                            [class.mt-2]="!first">tag</span>
+                    </ng-container>
                 </p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Source: GitHub (★72k)</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">License: MT</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Latest: 0.125.0</p>
-                <p class="text-sm text-gray-900 dark:text-white">Last Activity: 2024-04-16</p>
             </div>
-
-            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                <div class="flex items-center mb-4">
-                    <div class="bg-blue-600 text-white rounded-full p-2 mr-3">
-                        <span class="font-bold text-gray-900 dark:text-white">H</span>
-                    </div>
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Home Assistant</h3>
-                </div>
-                <p class="mb-2 text-gray-900 dark:text-white">Open-source home automation that puts local control
-                    and
-                    privacy first</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Source: GitHub (★68k)</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">License: Apache-2.0</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Latest: 2024.4.3</p>
-                <p class="text-sm text-gray-900 dark:text-white">Last Activity: 2024-04-17</p>
-            </div>
-
-            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                <div class="flex items-center mb-4">
-                    <div class="bg-green-600 text-white rounded-full p-2 mr-3">
-                        <span class="font-bold text-gray-900 dark:text-white">S</span>
-                    </div>
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Supabase</h3>
-                </div>
-                <p class="mb-2 text-gray-900 dark:text-white">Open-source based platform for backend development
-                    solutions</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Source: GitHub (★65k)</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">License: Apache-2.0</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Latest: 0.24.0</p>
-                <p class="text-sm text-gray-900 dark:text-white">Last Activity: 2024-04-17</p>
-            </div>
-
-            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                <div class="flex items-center mb-4">
-                    <div class="bg-blue-600 text-white rounded-full p-2 mr-3">
-                        <span class="font-bold text-gray-900 dark:text-white">H</span>
-                    </div>
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Home Assistant</h3>
-                </div>
-                <p class="mb-2 text-gray-900 dark:text-white">Open-source home automation that puts local control
-                    and
-                    privacy first</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Source: GitHub (★68k)</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">License: Apache-2.0</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Latest: 2024.4.3</p>
-                <p class="text-sm text-gray-900 dark:text-white">Last Activity: 2024-04-17</p>
-            </div>
-
-            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                <div class="flex items-center mb-4">
-                    <div class="bg-blue-600 text-white rounded-full p-2 mr-3">
-                        <span class="font-bold text-gray-900 dark:text-white">H</span>
-                    </div>
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Home Assistant</h3>
-                </div>
-                <p class="mb-2 text-gray-900 dark:text-white">Open-source home automation that puts local control
-                    and
-                    privacy first</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Source: GitHub (★68k)</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">License: Apache-2.0</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Latest: 2024.4.3</p>
-                <p class="text-sm text-gray-900 dark:text-white">Last Activity: 2024-04-17</p>
-            </div>
-
-            <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                <div class="flex items-center mb-4">
-                    <div class="bg-blue-600 text-white rounded-full p-2 mr-3">
-                        <span class="font-bold text-gray-900 dark:text-white">H</span>
-                    </div>
-                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Home Assistant</h3>
-                </div>
-                <p class="mb-2 text-gray-900 dark:text-white">Open-source home automation that puts local control
-                    and
-                    privacy first</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Source: GitHub (★68k)</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">License: Apache-2.0</p>
-                <p class="text-sm mb-1 text-gray-900 dark:text-white">Latest: 2024.4.3</p>
-                <p class="text-sm text-gray-900 dark:text-white">Last Activity: 2024-04-17</p>
+            <div *ngIf="filteredData.length === 0" class="text-center text-gray-900 dark:text-white">Aucun résultat
+                trouvé.
             </div>
         </div>
 
+        <div class="flex justify-center items-center mt-12 ">
+            <mat-paginator [length]="filteredData.length" [pageSize]="pageSize"
+                class="pagination bg-white dark:bg-gray-800 rounded-lg shadow-md  text-gray-900 dark:text-white"></mat-paginator>
 
+        </div>
     </div>
+
     <!-- Debut Footer -->
     <footer class="bg-white dark:bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 
             <hr class="my-6 border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between">
-                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a
-                        href="https://flowbite.com/" class="hover:underline">OutilsDevConnect</a>. All Rights Reserved.
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href=""
+                        class="hover:underline">DevToolsConnect</a>. All Rights Reserved.
                 </span>
                 <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
 
