@@ -1,5 +1,850 @@
 [
   {
+    "Lettre": "G",
+    "Nom": "GalsenApi",
+    "Description": "GalsenApi est une API qui vous permet de manipuler facilement des données sur le Sénégal.",
+    "Source": "https://galsenapi.pythonanywhere.com",
+    "Tags": ["API"]
+  },
+  {
+    "Lettre": "D",
+    "Nom": "DistroSea",
+    "Description": "Testez plus de 400 distributions Linux directement en ligne avec Distrosea.",
+    "Source": "https://distrosea.com/",
+    "Tags": ["Linux"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "Gitfluence",
+    "Description": "La solution basée sur l'IA qui vous aide à trouver rapidement la bonne commande.",
+    "Source": "https://gitfluence.com/",
+    "Tags": ["Git", "Outils"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "Shortcuts",
+    "Description": "Tous les raccourci pour vos outils de conception, de développement et de productivité.",
+    "Source": "https://shortcuts.design/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Tailframes",
+    "Description": "Bibliothèque de composants Open Source pour React & Tailwind CSS",
+    "Source": "https://www.tailframes.com/",
+    "Tags": ["Resources", "Tailwind CSS"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Tailblocks",
+    "Description": "Bibliothèque de composants Open Source pour React & Tailwind CSS",
+    "Source": "https://tailblocks.cc/",
+    "Tags": ["Resources", "Tailwind CSS"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "Floatui",
+    "Description": "Bibliothèque de composants gratuit pour  Tailwind CSS",
+    "Source": "https://floatui.com/",
+    "Tags": ["Resources", "Tailwind CSS"]
+  },
+  {
+    "Lettre": "W",
+    "Nom": "Warp",
+    "Description": "Warp est un terminal moderne basé sur Rust avec une IA intégrée pour que vous et votre équipe puissiez créer plus rapidement d'excellents logiciels.",
+    "Source": "https://docs.warp.dev",
+    "Tags": ["Outils", "Linux"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Twilio Lookup",
+    "Description": "Une API pour valider un numéro de téléphone et réduire la fraude",
+    "Source": "https://www.twilio.com/docs/lookup/v2-api",
+    "Tags": ["API"]
+  },
+  {
+    "Lettre": "U",
+    "Nom": "Undraw",
+    "Description": "Parcourez pour trouver les images qui correspondent à vos besoins et cliquez pour télécharger.",
+    "Source": "https://undraw.co/illustrations",
+    "Tags": ["Illustration"]
+  },
+  {
+    "Lettre": "P",
+    "Nom": "Penpot",
+    "Description": "Penpot est l'outil de conception open source.",
+    "Source": "https://penpot.app/",
+    "Tags": ["Design", "UI/UX"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "GLPI",
+    "Description": "Progiciel de gestion des actifs et de l'informatique, gestion des centres de données, centre de services, suivi des licences et audit des logiciels.",
+    "Source": "https://glpi-project.org/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "M",
+    "Nom": "Mixpost",
+    "Description": "Créez, planifiez, publiez et gérez facilement du contenu sur les réseaux sociaux en un seul endroit.",
+    "Source": "https://mixpost.app/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "I",
+    "Nom": "Imageresizer",
+    "Description": "Redimensionnez facilement les images en ligne gratuitement.",
+    "Source": "https://imageresizer.com/",
+    "Tags": ["Outils", "Images"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "Grep-app",
+    "Description": "Explorez les secrets des dépôts Git avec Grep.app, un outil en ligne qui permet de dénicher des trucs de dingue.",
+    "Source": "https://grep.app/",
+    "Tags": ["Outils", "Github"]
+  },
+  {
+    "Lettre": "P",
+    "Nom": "Plane ",
+    "Description": "Une bonne alternative à JIRA, Asana ou Linear pour mener vos projets à bien !",
+    "Source": "https://plane.so/",
+    "Tags": ["Outils", "Collaboration"]
+  },
+  {
+    "Lettre": "R",
+    "Nom": "Readeck",
+    "Description": "Application Web simple qui vous permet de sauvegarder le précieux contenu lisible des pages Web que vous aimez et que vous souhaitez conserver pour toujours.",
+    "Source": "https://readeck.org/en/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "FormatLab",
+    "Description": "Pour convertir tous les formats audio / vidéo sous Linux.",
+    "Source": "https://github.com/rishabh3354/FORMAT_LAB",
+    "Tags": ["Outils", "Linux"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Tailwind to WordPress Blocks",
+    "Description": "Transformez Tailwind en styles WP Block modifiables - développez plus rapidement.",
+    "Source": "https://upperhorizon.com/tailwind-to-wordpress-blocks-converter",
+    "Tags": ["Tailwind CSS", "Outils", "Wordpress"]
+  },
+  {
+    "Lettre": "N",
+    "Nom": "Nipht-io",
+    "Description": "Pour organiser et sauvegarder tous les liens que vous dénichez !",
+    "Source": "https://www.nipht.io/app",
+    "Tags": ["Organisation"]
+  },
+  {
+    "Lettre": "E",
+    "Nom": "Enhance",
+    "Description": "Nettoyer une piste de voix de tout bruit de fond, afin d’obtenir une qualité sonore « studio » pour votre podcast, vidéo YouTube, interview ou tout autre projet audio.",
+    "Source": "https://podcast.adobe.com/enhance",
+    "Tags": ["IA", "Audio"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "Github-backup",
+    "Description": "Mettre en place un backup de Github,pour sauvegarder vos données Github régulièrement.",
+    "Source": "https://github.com/josegonzalez/python-github-backup",
+    "Tags": ["Github"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Trafilatura",
+    "Description": "Cet outil open source codé en Python va vous permettre de collecter efficacement des textes sur des pages Web tout en simplifiant grandement la tâche des développeurs et utilisateurs.",
+    "Source": "https://trafilatura.readthedocs.io/en/latest/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "C",
+    "Nom": "Carbon",
+    "Description": "Un script pour partager de jolies images de votre code source",
+    "Source": "https://carbon.now.sh/",
+    "Tags": ["Outils", "Code"]
+  },
+  {
+    "Lettre": "M",
+    "Nom": "Mautic",
+    "Description": "Gérer vos automatisations marketing comme un chef avec ce logiciel libre.",
+    "Source": "https://www.mautic.org/",
+    "Tags": ["Marketing", "Outils"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "Free-Certifications",
+    "Description": "Une liste organisée de cours et de certifications gratuits.",
+    "Source": "https://github.com/cloudcommunity/Free-Certifications",
+    "Tags": ["Resources"]
+  },
+  {
+    "Lettre": "U",
+    "Nom": "UxPlay",
+    "Description": "Partage d'écran iPad sous Linux (Ubuntu).",
+    "Source": "https://github.com/antimof/UxPlay",
+    "Tags": ["Linux", "Outils"]
+  },
+  {
+    "Lettre": "A",
+    "Nom": "Allinone-tools",
+    "Description": "Allinone est une destination unique pour tous vos besoins ! Vous pouvez tout faire, des médias sociaux aux conversions, convertir des fichiers PDF et des images, et bien plus encore, en utilisant un seul outil.",
+    "Source": "https://allinone.tools/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "I",
+    "Nom": "It-tools",
+    "Description": "Une collection d'outils en ligne pratiques pour les développeurs, avec une excellente UX.",
+    "Source": "https://it-tools.tech/",
+    "Tags": ["UI/UX", "Resources"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Transform",
+    "Description": "Transform est un convertisseur Web polyvalent",
+    "Source": "https://transform.tools/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "A",
+    "Nom": "Angrytools",
+    "Description": "Un site Web qui propose une suite d'outils et d'utilitaires en ligne pour les développeurs Web et de logiciels.",
+    "Source": "https://angrytools.com/",
+    "Tags": ["Outils", "Resources"]
+  },
+  {
+    "Lettre": "M",
+    "Nom": "Mantime.dev",
+    "Description": "Une bibliothèque de composants React complète. Il vous permet de créer des applications Web accessibles entièrement fonctionnelles plus rapidement que jamais.",
+    "Source": "https://mantine.dev/",
+    "Tags": ["Web Development", "React", "Resources"]
+  },
+  {
+    "Lettre": "N",
+    "Nom": "Notion",
+    "Description": "Notion est une application tout-en-un qui fournit des outils pour la prise de notes, la gestion de projets, la collaboration et bien plus encore.",
+    "Source": "https://www.notion.so/",
+    "Tags": ["Productivité", "Collaboration"]
+  },
+  {
+    "Lettre": "H",
+    "Nom": "Hugo",
+    "Description": "Hugo est un moteur de site statique open source et hautement performant qui simplifie la création de sites web rapides et sécurisés.",
+    "Source": "https://gohugo.io/",
+    "Tags": ["Outils", "Web Development"]
+  },
+  {
+    "Lettre": "P",
+    "Nom": "Pexels",
+    "Description": "Des milliers de photos libres de droit à portée de clic.",
+    "Source": "https://www.pexels.com/fr-fr/",
+    "Tags": ["Resources", "Images"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "Flowbite",
+    "Description": "Bibliothèque de composants d'interface utilisateur open source et cadre de développement front-end basé sur Tailwind CSS.",
+    "Source": "https://flowbite.com/",
+    "Tags": ["Tailwind CSS"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Thunder-client",
+    "Description": "Thunder Client est une extension client légère pour tester vos API Rest pour VS Code..",
+    "Source": "https://www.thunderclient.com/",
+    "Tags": ["API"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "SweetAlert",
+    "Description": "SweetAlert est une méthode pour personnaliser les alertes dans vos applications, sites Web et jeux . Il permet à l'utilisateur de le modifier avec un bouton JavaScript standard.",
+    "Source": "https://sweetalert2.github.io/",
+    "Tags": ["Animation", "JavaScript"]
+  },
+  {
+    "Lettre": "H",
+    "Nom": "Heymeta",
+    "Description": "Heymeta vous permet Vérifier et créer rapidement vos balises meta.",
+    "Source": "https://www.heymeta.com",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "FutureCoder",
+    "Description": "Futurecoder est une plateforme libre et open-source permettant à de grands débutants de découvrir Python par eux-mêmes.",
+    "Source": "https://fr.futurecoder.io/",
+    "Tags": ["Outils", "Python"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "Scrapetable",
+    "Description": "Un site qui permet d'extraire toutes les datas que l'on souhaite de Google Maps GRATUITEMENT ! exportable en JSON, CSV ou Excel !",
+    "Source": "https://scrapetable.hrznlabs.com",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "D",
+    "Nom": "Dribbble",
+    "Description": "Dribbble est une communauté de designers partageant leur travail, leurs projets et leurs inspirations.",
+    "Source": "https://dribbble.com/",
+    "Tags": ["Design", "Inspiration"]
+  },
+  {
+    "Lettre": "M",
+    "Nom": "Material-UI",
+    "Description": "Material-UI est une bibliothèque de composants React basée sur les spécifications de Material Design de Google.",
+    "Source": "https://mui.com/",
+    "Tags": ["Outils", "React"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "Storybook",
+    "Description": "Storybook est un outil open source pour développer, tester et documenter des composants d'interface utilisateur.",
+    "Source": "https://storybook.js.org/",
+    "Tags": ["Outils", "UI/UX"]
+  },
+  {
+    "Lettre": "A",
+    "Nom": "Adobe XD",
+    "Description": "Adobe XD est une application de conception d'interface utilisateur et d'expérience utilisateur développée par Adobe.",
+    "Source": "https://www.adobe.com/products/xd.html",
+    "Tags": ["Design", "UI/UX"]
+  },
+  {
+    "Lettre": "C",
+    "Nom": "Canva",
+    "Description": "Canva est un outil de conception graphique en ligne permettant de créer facilement des designs professionnels.",
+    "Source": "https://www.canva.com/",
+    "Tags": ["Design", "Graphic Design"]
+  },
+  {
+    "Lettre": "V",
+    "Nom": "Vue.js",
+    "Description": "Vue.js est un framework JavaScript progressif pour la construction d'interfaces utilisateur.",
+    "Source": "https://vuejs.org/",
+    "Tags": ["Framework", "Frontend"]
+  },
+  {
+    "Lettre": "E",
+    "Nom": "Excalidraw",
+    "Description": "Excalidraw est un outil de dessin collaboratif pour concevoir des schémas et des diagrammes.",
+    "Source": "https://excalidraw.com/",
+    "Tags": ["Outils", "Collaboration"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "Filmora",
+    "Description": "Développez votre créativité.Créez sans effort grâce à une suite d'édition vidéo entièrement équipée et optimisée par l'IA.",
+    "Source": "https://filmora.wondershare.fr/",
+    "Tags": ["Videos"]
+  },
+
+  {
+    "Lettre": "I",
+    "Nom": "Iconbuddy",
+    "Description": "Découvrez un site qui regroupe plus de 200.000 icons open source regroupé par collection.",
+    "Tags": ["Icon"],
+    "Source": "https://iconbuddy.app"
+  },
+  {
+    "Lettre": "U",
+    "Nom": "Unsplash",
+    "Description": "Unsplash est une plateforme de partage de photos haute résolution en libre-service.",
+    "Source": "https://unsplash.com/",
+    "Tags": ["Resources", "Images"]
+  },
+  {
+    "Lettre": "L",
+    "Nom": "LottieFiles",
+    "Description": "LottieFiles est une bibliothèque en ligne de fichiers d'animation Lottie pour les applications web et mobiles.",
+    "Source": "https://lottiefiles.com/",
+    "Tags": ["Design", "Animation"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "Figma",
+    "Description": "Figma est une plateforme de conception d'interface utilisateur et de prototypage collaboratif basée sur le cloud.",
+    "Source": "https://www.figma.com/",
+    "Tags": ["Design", "UI/UX"]
+  },
+  {
+    "Lettre": "B",
+    "Nom": "Bootstrap",
+    "Description": "Bootstrap est une bibliothèque open source de composants front-end pour le développement web.",
+    "Source": "https://getbootstrap.com/",
+    "Tags": ["Outils", "Frontend", "Bootstrap"]
+  },
+  {
+    "Lettre": "D",
+    "Nom": "DevDocs",
+    "Description": "DevDocs est une collection de documentation de développement web accessible hors ligne.",
+    "Source": "https://devdocs.io/",
+    "Tags": ["Resources", "Documentation"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "GitHub",
+    "Description": "GitHub est une plateforme de développement logiciel basée sur Git, permettant l'hébergement de projets et la collaboration.",
+    "Source": "https://github.com/",
+    "Tags": ["Outils", "Collaboration", "Github"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "Stack Overflow",
+    "Description": "Stack Overflow est un site web de questions-réponses pour les développeurs et les professionnels en informatique.",
+    "Source": "https://stackoverflow.com/",
+    "Tags": ["Resources", "Communauté"]
+  },
+  {
+    "Lettre": "W",
+    "Nom": "Web-skills",
+    "Description": "Web Skills est un aperçu visuel des compétences utiles à acquérir en tant que développeur Web.",
+    "Source": "https://andreasbm.github.io/web-skills",
+    "Tags": ["Resources"]
+  },
+  {
+    "Lettre": "O",
+    "Nom": "Obsidian",
+    "Description": "Obsidian est un éditeur de notes et de connaissances basé sur Markdown, avec une forte accentuation sur la connexion des idées.",
+    "Source": "https://obsidian.md/",
+    "Tags": ["Outils", "Productivité"]
+  },
+  {
+    "Lettre": "N",
+    "Nom": "Netlify",
+    "Description": "Netlify est une plateforme de développement web permettant le déploiement continu, le développement web statique, la gestion des API et bien plus encore.",
+    "Source": "https://www.netlify.com/",
+    "Tags": ["Outils", "Web Development"]
+  },
+  {
+    "Lettre": "V",
+    "Nom": "Vercel",
+    "Description": "Vercel est une plateforme cloud pour les sites web statiques et les applications frontales.",
+    "Source": "https://vercel.com/",
+    "Tags": ["Outils", "Web Development"]
+  },
+  {
+    "Lettre": "C",
+    "Nom": "CodePen",
+    "Description": "CodePen est un éditeur de code en ligne et une communauté d'essai pour les développeurs front-end.",
+    "Source": "https://codepen.io/",
+    "Tags": ["Outils", "Web Development"]
+  },
+  {
+    "Lettre": "H",
+    "Nom": "Hacktoberfest",
+    "Description": "Hacktoberfest est un événement annuel célébrant la contribution à l'open source, organisé par DigitalOcean.",
+    "Source": "https://hacktoberfest.digitalocean.com/",
+    "Tags": ["Communauté", "Evenement"]
+  },
+
+  {
+    "Lettre": "G",
+    "Nom": "Gatsby",
+    "Description": "Gatsby est un framework open source pour la création de sites web et d'applications web à hautes performances.",
+    "Source": "https://www.gatsbyjs.com/",
+    "Tags": ["Outils", "Web Development", "Framework"]
+  },
+  {
+    "Lettre": "R",
+    "Nom": "React Native",
+    "Description": "React Native est un framework JavaScript pour le développement d'applications mobiles multiplateformes.",
+    "Source": "https://reactnative.dev/",
+    "Tags": ["Mobile Development", "Framework"]
+  },
+  {
+    "Lettre": "D",
+    "Nom": "Docker",
+    "Description": "Docker est une plateforme open source pour le développement, le déploiement et l'exécution d'applications dans des conteneurs.",
+    "Source": "https://www.docker.com/",
+    "Tags": ["Outils", "DevOps", "Containers", "Open Source"]
+  },
+  {
+    "Lettre": "P",
+    "Nom": "PyTorch",
+    "Description": "PyTorch est une bibliothèque open source de machine learning et de deep learning développée par Facebook.",
+    "Source": "https://pytorch.org/",
+    "Tags": ["Outils", "Machine Learning", "Deep Learning", "Open Source"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "TensorFlow",
+    "Description": "TensorFlow est une bibliothèque open source de machine learning développée par Google.",
+    "Source": "https://www.tensorflow.org/",
+    "Tags": ["Outils", "Machine Learning", "Open Source"]
+  },
+  {
+    "Lettre": "M",
+    "Nom": "Microsoft-Activation-Scripts",
+    "Description": "Un activateur Windows et Office utilisant les méthodes d'activation HWID / Ohook / KMS38 / Online KMS, en mettant l'accent sur le code open source et moins de détections antivirus.",
+    "Source": "https://massgrave.dev/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "A",
+    "Nom": "Angular",
+    "Description": "Angular est un framework JavaScript open source, développé par Google, pour construire des applications web à grande échelle.",
+    "Source": "https://angular.io/",
+    "Tags": ["Framework", "Frontend", "JavaScript", "Open Source"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "Svelte",
+    "Description": "Svelte est un framework JavaScript qui se compile en code JavaScript optimisé lors de la construction, offrant des performances accrues.",
+    "Source": "https://svelte.dev/",
+    "Tags": ["Framework", "Frontend", "JavaScript", "Open Source"]
+  },
+  {
+    "Lettre": "D",
+    "Nom": "Deno",
+    "Description": "Deno est une plateforme d'exécution JavaScript sécurisée et open source, construite avec TypeScript.",
+    "Source": "https://deno.land/",
+    "Tags": ["Outils", "Backend", "JavaScript", "TypeScript", "Open Source"]
+  },
+  {
+    "Lettre": "K",
+    "Nom": "Kubernetes",
+    "Description": "Kubernetes est une plateforme open source pour l'automatisation du déploiement, de la mise à l'échelle et de la gestion des applications conteneurisées.",
+    "Source": "https://kubernetes.io/",
+    "Tags": ["Outils", "DevOps", "Containers", "Open Source"]
+  },
+  {
+    "Lettre": "E",
+    "Nom": "Electron",
+    "Description": "Electron est une plateforme open source permettant de créer des applications de bureau multiplateformes à l'aide de technologies web (HTML, CSS, JavaScript).",
+    "Source": "https://www.electronjs.org/",
+    "Tags": ["Outils", "Desktop", "JavaScript", "Open Source"]
+  },
+
+  {
+    "Lettre": "C",
+    "Nom": "Colors-visualizer",
+    "Description": "Visualisez vos couleurs sur de vrais designs pour une meilleure expérience.",
+    "Source": "https://colors-visualizer.vercel.app/",
+    "Tags": ["Color"]
+  },
+  {
+    "Lettre": "M",
+    "Nom": "Material-tailwind",
+    "Description": "collection de blocs entièrement gratuits (licence MIT) conçus avec Tailwind CSS pour les sites Web et applications React.",
+    "Source": "https://www.material-tailwind.com/",
+    "Tags": ["Code", "Collection", "Tailwind CSS"]
+  },
+  {
+    "Lettre": "M",
+    "Nom": "Mockups-pixeltrue",
+    "Description": "Mockup pour ordinateur, tablette, portable et smartwatch ! Avec la possibilité d'exporter jusqu'à une résolution de 5000x5000.",
+    "Source": "https://mockups.pixeltrue.com/",
+    "Tags": ["Design", "Outils"]
+  },
+  {
+    "Lettre": "C",
+    "Nom": "Color Hunt",
+    "Description": "Obtenez de l'inspiration colorée pour vos projets de design et d'art.",
+    "Source": "https://colorhunt.co/",
+    "Tags": ["Color"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "Freesvg",
+    "Description": "Fichiers vectoriels SVG gratuits",
+    "Source": "https://freesvg.org/",
+    "Tags": ["Design", "Outils"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "Gorp",
+    "Description": "Gorp vous aide à mettre en œuvre des protections contre les fuites de données utilisateur protégées qui peuvent survenir lors du partage d'images sur le réseau (comme les captures d'écran d'applications).",
+    "Source": "https://gorp.app/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "B",
+    "Nom": "Birme",
+    "Description": "BIRME est un redimensionneur d'images en masse flexible et facile.",
+    "Source": "https://www.birme.net/",
+    "Tags": ["IA"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Toolki",
+    "Description": "Générateur de palette de couleurs à partir d'une image.",
+    "Source": "https://toolki.com/fr/image-palette",
+    "Tags": ["Color", "Design"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Haikei",
+    "Description": "Générateur de svg Divers. Il y en a pour tous les gouttes wave, blob, artefact pour des background.",
+    "Source": "https://app.haikei.app/",
+    "Tags": ["Css", "Design", "Generator"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "Getwaves",
+    "Description": "Générateur de vague en svg.",
+    "Source": "https://getwaves.io/",
+    "Tags": ["Css", "Generator"]
+  },
+  {
+    "Lettre": "A",
+    "Nom": "API publiques",
+    "Description": "La liste ultime des API publiques.",
+    "Source": "https://github.com/public-apis/public-apis",
+    "Tags": ["Resources", "API"]
+  },
+  {
+    "Lettre": "M",
+    "Nom": "Markodenic",
+    "Description": "Generator qui propose different style de button (html+css) clé en main.",
+    "Source": "https://markodenic.com/Outils/buttons-generator/",
+    "Tags": ["Generator"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "Profileme",
+    "Description": "Créez votre profil GitHub en un rien de temps, ajoutez des compétences, des réseaux sociaux, des badges, etc.",
+    "Source": "https://www.profileme.dev/",
+    "Tags": ["Outils", "Github"]
+  },
+
+  {
+    "Lettre": "H",
+    "Nom": "Hover Css",
+    "Description": "Collection d’effet d’hover en css.",
+    "Source": "https://ianlunn.github.io/Hover/",
+    "Tags": ["Collection", "Css", "Design"]
+  },
+  {
+    "Lettre": "H",
+    "Nom": "Hummaans",
+    "Description": "Collection d’svg  avec des formes humain mais un peu abstraite.",
+    "Source": "https://www.humaaans.com/",
+    "Tags": ["Illustration"]
+  },
+  {
+    "Lettre": "O",
+    "Nom": "Open noodles",
+    "Description": "Un ensemble gratuit d'illustrations open source !",
+    "Source": "https://www.opendoodles.com/",
+    "Tags": ["Illustration"]
+  },
+  {
+    "Lettre": "U",
+    "Nom": "Upalabs",
+    "Description": "UpLabs est l'endroit idéal pour trouver des ressources de conception de haute qualité pour les designers, les agences de création et les développeurs.",
+    "Source": "https://www.uplabs.com/posts/tool/figma.",
+    "Tags": ["Design"]
+  },
+
+  {
+    "Lettre": "V",
+    "Nom": "Vecteezy",
+    "Description": "Des ressources créatives de qualité professionnelle pour réaliser vos projets plus rapidement.",
+    "Source": "https://www.vecteezy.com/",
+    "Tags": ["Design", "Illustration"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "Google Fonts",
+    "Description": "Biblioteque de font.",
+    "Source": "https://fonts.google.com/",
+    "Tags": ["Fonts"]
+  },
+  {
+    "Lettre": "A",
+    "Nom": "Abstract font",
+    "Description": "Biblioteque de font.",
+    "Source": "https://www.abstractfonts.com/",
+    "Tags": ["Fonts"]
+  },
+  {
+    "Lettre": "J",
+    "Nom": "JWT",
+    "Description": "JWT.IO vous permet de décoder, vérifier et générer JWT.",
+    "Source": "https://jwt.io/",
+    "Tags": ["Outils"]
+  },
+
+  {
+    "Lettre": "N",
+    "Nom": "Neuromorsphism",
+    "Description": "Generator neuromorsphism.",
+    "Source": "https://neumorphism.io/",
+    "Tags": ["Css", "Generator"]
+  },
+  {
+    "Lettre": "U",
+    "Nom": "Uiverse",
+    "Description": "Éléments d'interface utilisateur Open Source pour tout projet.",
+    "Source": "https://uiverse.io/",
+    "Tags": ["Collection", "Css"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "Squoosh",
+    "Description": "Squoosh peut réduire la taille du fichier et maintenir une haute qualité.",
+    "Source": "https://squoosh.app/",
+    "Tags": ["Illustration"]
+  },
+  {
+    "Lettre": "w",
+    "Nom": "Webmobilefirst",
+    "Description": "Simulateur de smartphones et tablettes sur ordinateur pour visualiser n'importe quel site en version mobile.",
+    "Source": "https://webmobilefirst.com/",
+    "Tags": ["Css", "Design", "Outils"]
+  },
+  {
+    "Lettre": "R",
+    "Nom": "Responsively",
+    "Description": "Outils pour tester les responsivité d’un site.",
+    "Source": "https://responsively.app/",
+    "Tags": ["Css", "Design"]
+  },
+  {
+    "Lettre": "U",
+    "Nom": "Uicolors",
+    "Description": "Créer des familles de couleurs CSS, Tailwind.",
+    "Source": "https://uicolors.app/create",
+    "Tags": ["Color", "Css"]
+  },
+  {
+    "Lettre": "C",
+    "Nom": "Checklist",
+    "Description": "Collection de checklist de guideline de design à respecter. Pour créer des interfaces.",
+    "Source": "https://www.checklist.design/",
+    "Tags": ["Design"]
+  },
+
+  {
+    "Lettre": "B",
+    "Nom": "Bulma",
+    "Description": "Bulma est un framework open source gratuit qui fournit des composants frontaux prêts à l'emploi que vous pouvez facilement combiner pour créer des interfaces Web réactives.",
+    "Source": "https://bulma.io/",
+    "Tags": ["Css", "Framework"]
+  },
+
+  {
+    "Lettre": "S",
+    "Nom": "Stockai",
+    "Description": "Biblioteque d’image génerée par IA.",
+    "Source": "https://www.stockai.com/",
+    "Tags": ["Design", "Illustration"]
+  },
+
+  {
+    "Lettre": "U",
+    "Nom": "Uistore",
+    "Description": "651 kits d'interface utilisateur triés sur le volet gratuits pour vos projets réels.",
+    "Source": "https://www.uistore.design/",
+    "Tags": ["Design"]
+  },
+  {
+    "Lettre": "W",
+    "Nom": "Watermarkremover",
+    "Description": "Supprimez les filigranes de vos images grâce à notre puissante technologie d'IA.",
+    "Source": "https://www.watermarkremover.io/fr",
+    "Tags": ["IA"]
+  },
+  {
+    "Lettre": "E",
+    "Nom": "Erase-bg",
+    "Description": "Supprimer l'arrière-plan d'une image gratuitement.",
+    "Source": "https://www.erase.bg",
+    "Tags": ["IA"]
+  },
+  {
+    "Lettre": "R",
+    "Nom": "Remove-bg",
+    "Description": "Supprimez le fond d'une image 100 % automatique et gratuit.",
+    "Source": "https://www.remove.bg/fr",
+    "Tags": ["IA"]
+  },
+
+  {
+    "Lettre": "X",
+    "Nom": "Xdguru",
+    "Description": "Des ressources gratuits pour Adobe xd.",
+    "Source": "https://www.xdguru.com",
+    "Tags": ["Design"]
+  },
+  {
+    "Lettre": "R",
+    "Nom": "Ray-so",
+    "Description": "Créateur d'images pour code.",
+    "Source": "https://ray.so/",
+    "Tags": ["Code", "Outils"]
+  },
+
+  {
+    "Lettre": "C",
+    "Nom": "Copylime",
+    "Description": "Copylime est un service de rédaction fiable et efficace.Copylime est construit en collaboration avec des blogueurs chevronnés, des spécialistes du marketing.",
+    "Source": "https://copylime.com/ai-tools/full-article-generator-tool",
+    "Tags": ["Outils", "Icon"]
+  },
+
+  {
+    "Lettre": "E",
+    "Nom": "Ebook-demo",
+    "Description": "Le moteur de recherche de bouquins décentralisé.",
+    "Source": "https://github.com/j2qk3b/ebook-demo",
+    "Tags": ["Livres"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "SVGOMG",
+    "Description": "Pour réduire drastiquement la taille de vos SVG sans les casser.",
+    "Source": "https://svgomg.net/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "T",
+    "Nom": "Trangram ",
+    "Description": "Créez des animations pro sans coder en moins de 2 min",
+    "Source": "https://www.trangram.com/",
+    "Tags": ["Outils", "Animation"]
+  },
+  {
+    "Lettre": "W",
+    "Nom": "Watchexec",
+    "Description": "Un outil indispensable pour automatiser vos tâches de développement",
+    "Source": "https://watchexec.github.io/",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "O",
+    "Nom": "Ohmygit",
+    "Description": "Un jeu open source pour apprendre Git !",
+    "Source": "https://ohmygit.org/",
+    "Tags": ["Outils", "Git"]
+  },
+  {
+    "Lettre": "E",
+    "Nom": "Egghead",
+    "Description": "Apprenez le développement Web moderne en une fraction du temps.",
+    "Source": "https://egghead.io/",
+    "Tags": ["Web Development", "Resources"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "Glowbom",
+    "Description": "Créez des applications étonnantes avec l'IA sans savoir coder.",
+    "Source": "https://glowbom.com/",
+    "Tags": ["IA", "Design", "Graphic Design"]
+  },
+  {
+    "Lettre": "C",
+    "Nom": "Cheatography",
+    "Description": "Plus de 6 000 aide-mémoire gratuits, aides à la révision et références rapides !",
+    "Source": "https://cheatography.com/",
+    "Tags": ["Resources"]
+  },
+  {
     "Lettre": "T",
     "Nom": "Themefisher",
     "Description": "Les modèles Bootstrap gratuits ont été téléchargés 909568 fois",
@@ -12,5 +857,19 @@
     "Description": "Convertissez vos fichiers dans n'importe quel format",
     "Source": "https://convertio.co/fr/",
     "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "E",
+    "Nom": "ElevenLabs",
+    "Description": "Convertissez gratuitement du texte en parole en ligne avec notre générateur vocal IA. Créez instantanément des voix naturelles d'IA dans n'importe quelle langue.",
+    "Source": "https://elevenlabs.io",
+    "Tags": ["Outils", "Audio"]
+  },
+  {
+    "Lettre": "C",
+    "Nom": "Cordova",
+    "Description": "API JavaScript pour les applications hybrides.",
+    "Source": "https://cordova.apache.org/docs/en/latest/",
+    "Tags": ["API", "JavaScript"]
   }
 ]
