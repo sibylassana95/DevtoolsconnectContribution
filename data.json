@@ -7,18 +7,236 @@
     "Tags": ["API", "Open Source"]
   },
   {
-    "Lettre": "G",
-    "Nom": "Gamma",
-    "Description": "Gamma invente un nouveau support pour remplacer le diaporama. Les mémos combinent les meilleurs éléments des diapositives et des documents.",
-    "Source": "https://try.gamma.app",
+    "Lettre": "F",
+    "Nom": "Flowrift",
+    "Description": "Blocs d'interface utilisateur Taiwind Css réutilisable.",
+    "Source": "https://flowrift.com/c/hero",
+    "Tags": ["Tailwind CSS", "Resources"]
+  },
+  {
+    "Lettre": "A",
+    "Nom": "ShareX",
+    "Description": "ShareX est un programme gratuit et open source qui vous permet de capturer ou d'enregistrer n'importe quelle zone de votre écran et de la partager d'une simple pression sur une touche.",
+    "Source": "https://github.com/ShareX/ShareX",
+    "Tags": ["Outils", "Open Source"]
+
+  },
+  {
+    "Lettre": "A",
+    "Nom": "Akira",
+    "Description": "Application Linux native pour la conception d'interface utilisateur et d'expérience utilisateur.",
+    "Source": "https://github.com/akiraux/Akira",
+    "Tags": ["Design", "Outils"]
+  },
+  {
+    "Lettre": "A",
+    "Nom": "Animata",
+    "Description": "Donnez vie à votre site avec un code d'animation et d'interaction facile à utiliser. Copiez. Collez. Animez.",
+    "Source": "hhttps://animata.design/",
+    "Tags": ["Animation", "Design","Resources"]
+  },
+  {
+    "Lettre": "N",
+    "Nom": "NocoDB",
+    "Description": "NocoDB est une alternative open source à Airtable, capable de transformer n'importe quelle base de données en une feuille de calcul intelligente pour une gestion et une automatisation puissantes des données.",
+    "Source": "https://nocodb.com/",
+    "Tags": ["No Code","Open Source"]
+  },
+  {
+    "Lettre": "N",
+    "Nom": "NocoBase",
+    "Description": "NocoBase est une plate-forme de développement open source, auto-hébergée, hautement évolutive, sans code/à faible code, flexible et facile à utiliser.",
+    "Source": "https://www.nocobase.com/",
+    "Tags": ["No Code","Open Source"]
+  },
+  {
+    "Lettre": "M",
+    "Nom": "Mitose",
+    "Description": "Mitosis est un outil de développement qui permet aux développeurs d'écrire du code de composant une fois, puis de l'exécuter sur plusieurs frameworks front-end, tels que React, Vue, Angular, etc..",
+    "Source": "https://mitosis.builder.io",
+    "Tags": ["No Code","Open Source"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "Formily",
+    "Description": "Formily est une bibliothèque de formulaires axée sur les performances qui prend en charge React et Vue, utilisant le schéma JSON pour la génération de formulaires dynamiques.",
+    "Source": "https://formilyjs.org/",
+    "Tags": ["No Code","Open Source"]
+  },
+  {
+    "Lettre": "P",
+    "Nom": "Plausible",
+    "Description": "L’alternative open source à Google Analytics.",
+    "Source": "https://plausible.io/",
+    "Tags":["Outils","Productivité"]
+
+  },
+
+  {
+    "Lettre": "R",
+    "Nom": "REFInd",
+    "Description": "Le gestionnaire EFI / UEFI qui boote tous vos OS avec classe. Il est disponible pour Linux, Windows et MacOS.",
+    "Source": "https://www.rodsbooks.com/refind",
     "Tags": ["Outils"]
   },
+  {
+    "Lettre":"I",
+    "Nom":"Imgto",
+    "Description":"Optimisez et compressez facilement jusqu'à 20 images (jusqu'à 10 Mo chacune) gratuitement pour améliorer les performances.",
+    "Source":"https://imgto.xyz",
+    "Tags":["Outils","Images"]
+  },
+  {
+    "Lettre":"X",
+    "Nom":"Xmind",
+    "Description":"Créer des mindmaps ultra stylées, facilement et sur toutes les plateformes",
+    "Source":"https://xmind.app/",
+    "Tags":["Outils"]
+
+  },
+  {
+    "Lettre":"E",
+    "Nom":"Eidos",
+    "Description":"Alternative hors ligne à Notion. Eidos est un framework extensible pour gérer vos données personnelles tout au long de votre vie en un seul endroit.",
+    "Source": "https://eidos.space",
+    "Tags": ["Outils", "Productivité"]
+  },
+  {
+    "Lettre":"R",
+    "Nom":"Reactive-Resume",
+    "Description":"Un créateur de CV unique en son genre qui garde votre vie privée à l'esprit. Entièrement sécurisé, personnalisable, portable, open source et gratuit pour toujours.",
+    "Source": "https://rxresu.me/",
+    "Tags": ["Outils", "Open Source"]
+  },
+  {
+    "Lettre": "R",
+    "Nom": "RTranslator",
+    "Description": "RTranslator est la première application de traduction open source en temps réel au monde.",
+    "Source": "https://github.com/niedev/RTranslator/tree/v2.00",
+    "Tags": ["Outils", "Open Source"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "Fleet",
+    "Description": "Plateforme open source pour les équipes informatiques, de sécurité et d'infrastructure. (Linux, macOS, Chrome, Windows, cloud, centre de données)",
+    "Source": "https://github.com/fleetdm/fleet",
+    "Tags": ["Sécurité", "Open Source"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "Sense",
+    "Description": "Sense est un outil de gestion de projets qui permet de gérer les projets de manière collaborative et de suivre les évolutions des dépendances.",
+    "Source": "https://sense.com/",
+    "Tags": ["Productivité", "Outils"]
+  },
+  {
+    "Lettre": "Q",
+    "Nom": "Quickemu",
+    "Description": "Créez et exécutez rapidement des machines virtuelles Windows, macOS et Linux optimisées.",
+    "Source": "https://github.com/quickemu-project/quickemu",
+    "Tags": ["Outils"]
+  },
+  {
+    "Lettre": "S",
+    "Nom": "StreamSpeech",
+    "Description": "StreamSpeech est un modèle transparent « tout-en-un » pour la reconnaissance vocale, la traduction et la synthèse vocales hors ligne et simultanées.",
+    "Source": "https://github.com/ictnlp/StreamSpeech",
+    "Tags": ["Outils", "IA"]
+
+  },
+  {
+    "Lettre": "D",
+    "Nom": "Designspell",
+    "Description": "Un site qui regroupe pleins d'animation UI pour créer un wahoo effect .",
+    "Source": "https://www.designspells.com/",
+    "Tags": ["Design", "Resources"]
+  },
+  {
+    "Lettre": "D",
+    "Nom": "DB Fiddle",
+    "Description": "Tester, déboguer et partager des extraits de code SQL.Création de tables, lecture, écriture, ...",
+    "Source": "https://www.db-fiddle.com/",
+    "Tags": ["Bases de données"]
+  },
+  {
+    "Lettre": "F",
+    "Nom": "Flet",
+    "Description": "Flet permet aux développeurs de créer facilement des applications Web, mobiles et de bureau en temps réel en Python. Aucune expérience front-end requise.",
+    "Source": "https://flet.dev/",
+    "Tags": ["Python"]
+  },
+  {
+    "Lettre": "L",
+    "Nom": "Learn-anything",
+    "Description": "Apprendre tout ce que vous voulez avec ce site.",
+    "Source": "https://learn-anything.xyz",
+    "Tags": ["Resources"]
+  },
+
+  {
+    "Lettre":"S",
+    "Nom":"Svgl",
+    "Description":"Une belle bibliothèque avec des logos SVG. Construit avec Sveltekit et Tailwind CSS.",
+    "Source":"https://svgl.app/",
+    "Tags": ["Resources"]
+  },
+  {
+    "Lettre": "U",
+    "Nom": "Univer",
+    "Description": "Univer est une alternative open source à Google Sheets, Slides et Docs.",
+    "Source": "https://univer.ai/",
+    "Tags": ["Outils", "Open Source","Productivité"]
+  },
+  {
+    "Lettre": "E",
+    "Nom": "Ente",
+    "Description": "Alternative entièrement open source et cryptée de bout en bout à Google Photos et Apple Photos.",
+    "Source": "https://ente.io/",
+    "Tags": ["Open Source","Productivité"]
+  },
+  {
+    "Lettre":"H",
+    "Nom":"Hireflow",
+    "Description": "Vérificateur de CV ATS gratuit alimenté par l'IA et générateur de lettre de motivation",
+    "Source": "https://www.hireflow.net/",
+    "Tags": ["Outils", "IA","Productivité"]
+  },
+  {
+    "Lettre":"F",
+    "Nom":"Flowise",
+    "Description": "Créez des applications LLM sans coder.",
+    "Source": "https://flowiseai.com/",
+    "Tags": ["Outils", "IA"]
+  },
+  {
+    "Lettre":"T",
+    "Nom":"Toolkit",
+    "Description":"Un super outil pour simuler et debugger des requêtes HTTP(S).",
+    "Source":"https://httptoolkit.com/",
+    "Tags": ["Outils"]
+
+  },
+  {
+    "Lettre":"G",
+    "Nom":"GritQL",
+    "Description":"Le langage de requête pour manipuler du code source.",
+    "Source":"https://github.com/getgrit/gritql",
+    "Tags": ["Outils"]
+ },
+
   {
     "Lettre": "Z",
     "Nom": "Zed",
     "Description": "Codez à la vitesse de la pensée – Zed est un éditeur de code multijoueur hautes performances créé par les créateurs d'Atom et Tree-sitter.",
     "Source": "https://zed.dev/",
     "Tags": ["Outils", "web developpement","Open Source"]
+  },
+  {
+    "Lettre": "G",
+    "Nom": "Gamma",
+    "Description": "Gamma invente un nouveau support pour remplacer le diaporama. Les mémos combinent les meilleurs éléments des diapositives et des documents.",
+    "Source": "https://try.gamma.app",
+    "Tags": ["Outils"]
   },
   {
    "Lettre": "V",
